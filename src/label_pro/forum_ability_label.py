@@ -4,7 +4,7 @@ import numpy as np
 # 487天的数据
 
 # 打开数据库连接
-db = pymysql.connect("localhost", "root", "sjh19970201", "datacastlecom")
+db = pymysql.connect("localhost", "root", "******", "datacastlecom")
 cursor = db.cursor()
 
 sel_sql = "select * from forum_message"
