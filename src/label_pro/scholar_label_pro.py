@@ -4,7 +4,7 @@ import numpy as np
 col_data = ["x912", "z052", "x616", "y663", "z512", "x492_y524", "y076", "z918", "z735", "y786", "x986"]
 
 # 打开数据库连接
-db = pymysql.connect("localhost", "root", "sjh19970201", "datacastlecom")
+db = pymysql.connect("localhost", "root", "******", "datacastlecom")
 cursor = db.cursor()
 
 '''
