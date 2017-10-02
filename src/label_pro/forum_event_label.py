@@ -4,7 +4,7 @@ import numpy as np
 # 统计每一天的发帖量，本次标签生成每日总的发帖量在700(本次处理为了减少标签量)以上的(共有6天)，记做有大事发生，统计每一个学生在该天的参与能力
 
 # 打开数据库连接
-db = pymysql.connect("localhost", "root", "sjh19970201", "datacastlecom")
+db = pymysql.connect("localhost", "root", "******", "datacastlecom")
 cursor = db.cursor()
 
 sel_sql = "select * from forum_message"
